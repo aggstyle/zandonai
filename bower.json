@@ -1,0 +1,22 @@
+{
+  "name": "zandonai",
+  "description": "About Ricardo Zandonai",
+  "main": "index.html",
+  "authors": [
+    "Ricardo Zandonai"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "Ricardo",
+    "Zandonai"
+  ],
+  "homepage": "https://github.com/aggstyle/zandonai",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
