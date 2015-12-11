@@ -1,140 +1,8 @@
 @charset "UTF-8";
-/**
- * Media query mixins
- *
- * IE 8 gets the desktop and tablet-up content
- *
- */
-/**
- * Font mixins
- *
- * Mixins for defining font family, size and line-height
- *
- */
-@font-face {
-  font-family: "FS Millbank Icons";
-  src: url('/fonts/FSMillbankIcons/FSMillbankIconsWeb-Regular.eot?1415294438');
-  src: url('/fonts/FSMillbankIcons/FSMillbankIconsWeb-Regular.eot?&1415294438#iefix') format("embedded-opentype"), url('/fonts/FSMillbankIcons/FSMillbankIconsWeb-Regular.woff?1415294439') format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Regular.eot?1412694787');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Regular.eot?&1412694787#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Regular.woff?1412694789') format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Italic.eot?1412694769');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Italic.eot?&1412694769#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Italic.woff?1412694771') format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Bold.eot?1412694743');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Bold.eot?&1412694743#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Bold.woff?1412694745') format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-BoldItalic.eot?1412694750');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-BoldItalic.eot?&1412694750#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-BoldItalic.woff?1412694752') format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Heavy.eot?1412694756');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Heavy.eot?&1412694756#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Heavy.woff?1412694758') format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-HeavyItalic.eot?1412694762');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-HeavyItalic.eot?&1412694762#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-HeavyItalic.woff?1412694764') format("woff");
-  font-weight: 900;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Light.eot?1412694775');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Light.eot?&1412694775#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-Light.woff?1412694777') format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank Negative";
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-LightItalic.eot?1412694781');
-  src: url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-LightItalic.eot?&1412694781#iefix') format("embedded-opentype"), url('/fonts/FSMillbankNegative/FSMillbankNegativeWeb-LightItalic.woff?1412694783') format("woff");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Regular.eot?1412694836');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Regular.eot?&1412694836#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-Regular.woff?1412694838') format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Italic.eot?1412694818');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Italic.eot?&1412694818#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-Italic.woff?1412694820') format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Bold.eot?1412694793');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Bold.eot?&1412694793#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-Bold.woff?1412694795') format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-BoldItalic.eot?1412694799');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-BoldItalic.eot?&1412694799#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-BoldItalic.woff?1412694801') format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Heavy.eot?1412694805');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Heavy.eot?&1412694805#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-Heavy.woff?1412694807') format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-HeavyItalic.eot?1412694811');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-HeavyItalic.eot?&1412694811#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-HeavyItalic.woff?1412694813') format("woff");
-  font-weight: 900;
-  font-style: italic;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Light.eot?1412694824');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-Light.eot?&1412694824#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-Light.woff?1412694826') format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "FS Millbank";
-  src: url('/fonts/FSMillbank/FSMillbankWeb-LightItalic.eot?1412694830');
-  src: url('/fonts/FSMillbank/FSMillbankWeb-LightItalic.eot?&1412694830#iefix') format("embedded-opentype"), url('/fonts/FSMillbank/FSMillbankWeb-LightItalic.woff?1412694832') format("woff");
-  font-weight: 300;
-  font-style: italic;
-}
-/* line 21, ../sass/_base.scss */
 body {
   line-height: 1;
   background-color: #ffffff;
-  color: #2f2799;
+  color: #0456FF;
   margin: 0;
 }
 
@@ -227,9 +95,9 @@ ul, ol, li {
 
 /* line 22, ../sass/components/_elements.scss */
 .FS-title {
-  font-family:  sans-serif;
+font-family:  sans-serif;
   font-size: 16px;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 27px;
   line-height: 1.6875em;
   font-weight: normal;
@@ -239,15 +107,14 @@ ul, ol, li {
 @media (max-width: 1023px) {
   /* line 22, ../sass/components/_elements.scss */
   .FS-title {
-    display: none;
+    display: ruby-base;
   }
 }
 @media (max-height: 865px) and (min-width: 750px) {
   /* line 22, ../sass/components/_elements.scss */
   .FS-title {
     font-family:  sans-serif;
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 20px;
     line-height: 25px;
     line-height: 1.78571em;
     font-weight: normal;
@@ -364,7 +231,7 @@ ul, ol, li {
 /* line 1, ../sass/components/_bars.scss */
 .bar, #Header, #Footer {
   display: block;
-  background: #232323;
+  background: #0456FF;
   width: 100%;
   pointer-events: auto;
   position: absolute;
@@ -407,7 +274,7 @@ ul, ol, li {
 
 /* line 27, ../sass/components/_bars.scss */
 .barBox, .Share-box, .Progress {
-  border-left: 1px solid #333333;
+  border-left: 1px solid #0456FF;
   display: inline-block;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
@@ -650,9 +517,13 @@ ul, ol, li {
   color: #2d2d2d;
 }
 
+.lightgrey {
+  color: #C5E0DC;
+}
+
 /* line 65, ../sass/components/_text.scss */
 .silver, .FS-title {
-  color: #6e6e6e;
+  color: #ffffff;
 }
 
 /* line 68, ../sass/components/_text.scss */
@@ -743,7 +614,7 @@ ul, ol, li {
 .menuButton,
 .buyButton {
   display: inline-block;
-  color: #6e6e6e;
+  color: #ffffff;
   vertical-align: middle;
   text-align: center;
   -moz-transition: all 0.2s ease;
@@ -3844,6 +3715,10 @@ input.error {
 /* line 18, ../sass/utilities/_grids.scss */
 .oneThird, .iconSet {
   width: 33.333%;
+}
+/* line 18, ../sass/utilities/_grids.scss */
+.onetest, .iconSet {
+  width: 20%;
 }
 
 /* line 1, ../sass/utilities/_positions.scss */

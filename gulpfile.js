@@ -20,4 +20,5 @@ gulp.task('serve', function() {
     gulp.watch('*.js').on("change", browserSync.reload);
 	gulp.watch('*.jpg').on("change", browserSync.reload);
 	gulp.watch('*.png').on("change", browserSync.reload);
+    gulp.watch('*').on("change", browserSync.reload);
 });
