@@ -2,7 +2,7 @@
 body {
   line-height: 1;
   background-color: #ffffff;
-  color: #0456FF;
+  color: #0B486B;
   margin: 0;
 }
 
@@ -231,7 +231,7 @@ font-family:  sans-serif;
 /* line 1, ../sass/components/_bars.scss */
 .bar, #Header, #Footer {
   display: block;
-  background: #0456FF;
+  background: #0B486B;
   width: 100%;
   pointer-events: auto;
   position: absolute;
@@ -274,7 +274,7 @@ font-family:  sans-serif;
 
 /* line 27, ../sass/components/_bars.scss */
 .barBox, .Share-box, .Progress {
-  border-left: 1px solid #0456FF;
+  border-left: 1px solid #0B486B;
   display: inline-block;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
@@ -315,7 +315,7 @@ font-family:  sans-serif;
 
 /* line 50, ../sass/components/_bars.scss */
 #Footer {
-  border-top: 1px solid #333333;
+  border-top: 1px solid #A7DBD8;
   top: auto;
   right: 0;
   bottom: 0;
@@ -387,6 +387,15 @@ font-family:  sans-serif;
   font-size: 1.875rem;
   line-height: 41px;
   line-height: 1.36667em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.miniText {
+  font-family:  sans-serif;
+  font-size: 10px;
+  font-size: 1.3rem;
+  line-height: 41px;
   font-weight: normal;
   font-style: normal;
 }
@@ -543,7 +552,7 @@ font-family:  sans-serif;
 
 /* line 79, ../sass/components/_text.scss */
 .iconFont {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 50px;
   font-size: 3.125rem;
   line-height: 61px;
@@ -717,8 +726,7 @@ font-family:  sans-serif;
 
 /* line 44, ../sass/components/_nav-buttons.scss */
 .exitButton:before {
-  content: '-';
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 34px;
   font-size: 2.125rem;
   line-height: 45px;
@@ -730,7 +738,7 @@ font-family:  sans-serif;
 @media (max-height: 865px) and (min-width: 750px) {
   /* line 44, ../sass/components/_nav-buttons.scss */
   .exitButton:before {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 35px;
@@ -783,7 +791,7 @@ font-family:  sans-serif;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
 .ie8 .nextButton:after {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 42px;
   font-size: 2.625rem;
   line-height: 53px;
@@ -795,7 +803,7 @@ font-family:  sans-serif;
 @media (min-width: 750px) {
   /* line 69, ../sass/components/_nav-buttons.scss */
   .nextButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 42px;
     font-size: 2.625rem;
     line-height: 53px;
@@ -808,7 +816,7 @@ font-family:  sans-serif;
 @media (max-width: 749px) {
   /* line 69, ../sass/components/_nav-buttons.scss */
   .nextButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 39px;
@@ -820,7 +828,7 @@ font-family:  sans-serif;
 @media (max-height: 865px) and (min-width: 750px) {
   /* line 69, ../sass/components/_nav-buttons.scss */
   .nextButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 39px;
@@ -847,7 +855,7 @@ font-family:  sans-serif;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
 .ie8 .prevButton:before {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 42px;
   font-size: 2.625rem;
   line-height: 53px;
@@ -859,7 +867,7 @@ font-family:  sans-serif;
 @media (min-width: 750px) {
   /* line 91, ../sass/components/_nav-buttons.scss */
   .prevButton:before {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 42px;
     font-size: 2.625rem;
     line-height: 53px;
@@ -872,7 +880,7 @@ font-family:  sans-serif;
 @media (max-width: 749px) {
   /* line 91, ../sass/components/_nav-buttons.scss */
   .prevButton:before {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 39px;
@@ -884,7 +892,7 @@ font-family:  sans-serif;
 @media (max-height: 865px) and (min-width: 750px) {
   /* line 91, ../sass/components/_nav-buttons.scss */
   .prevButton:before {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 39px;
@@ -904,13 +912,13 @@ font-family:  sans-serif;
 
 /* line 112, ../sass/components/_nav-buttons.scss */
 .off {
-  color: #333333;
+  color: #3B8686;
   cursor: default;
 }
 
 /* line 116, ../sass/components/_nav-buttons.scss */
 .off:hover {
-  color: #333333;
+  color: #45ADA8;
 }
 
 /* line 121, ../sass/components/_nav-buttons.scss */
@@ -1016,7 +1024,6 @@ font-family:  sans-serif;
 
 /* line 175, ../sass/components/_nav-buttons.scss */
 .buyButton:after {
-  content: '£';
   color: #6e6e6e;
   vertical-align: middle;
   -moz-transition: all 0.2s ease;
@@ -1027,7 +1034,7 @@ font-family:  sans-serif;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
 .ie8 .buyButton:after {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 50px;
   font-size: 3.125rem;
   line-height: 61px;
@@ -1038,7 +1045,7 @@ font-family:  sans-serif;
 @media (min-width: 750px) {
   /* line 175, ../sass/components/_nav-buttons.scss */
   .buyButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 50px;
     font-size: 3.125rem;
     line-height: 61px;
@@ -1050,7 +1057,7 @@ font-family:  sans-serif;
 @media (max-width: 749px) {
   /* line 175, ../sass/components/_nav-buttons.scss */
   .buyButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 25px;
     font-size: 1.5625rem;
     line-height: 36px;
@@ -1062,7 +1069,7 @@ font-family:  sans-serif;
 @media (max-height: 865px) and (min-width: 750px) {
   /* line 175, ../sass/components/_nav-buttons.scss */
   .buyButton:after {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 25px;
     font-size: 1.5625rem;
     line-height: 36px;
@@ -1244,8 +1251,7 @@ font-family:  sans-serif;
 
 /* line 62, ../sass/components/_link-buttons.scss */
 .eyeButton:before {
-  content: 'V';
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 35px;
   font-size: 2.1875rem;
   line-height: 46px;
@@ -1310,7 +1316,7 @@ font-family:  sans-serif;
 
 /* line 28, ../sass/components/_info-buttons.scss */
 .InfoLink:before {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;
@@ -1328,26 +1334,6 @@ font-family:  sans-serif;
 /* line 34, ../sass/components/_info-buttons.scss */
 .InfoLink:hover:before {
   color: #ffffff;
-}
-
-/* line 38, ../sass/components/_info-buttons.scss */
-.infoButton:before {
-  content: 'i';
-}
-
-/* line 41, ../sass/components/_info-buttons.scss */
-.tryButton:before {
-  content: 'å';
-}
-
-/* line 44, ../sass/components/_info-buttons.scss */
-.buynowButton:before {
-  content: '£';
-}
-
-/* line 47, ../sass/components/_info-buttons.scss */
-.startButton:before {
-  content: '-';
 }
 
 /* line 1, ../sass/components/_menu.scss */
@@ -1504,7 +1490,6 @@ font-family:  sans-serif;
 
 /* line 92, ../sass/components/_menu.scss */
 .Menu-list:after {
-  content: '';
   width: 58px;
   height: 58px;
   display: block;
@@ -1743,20 +1728,20 @@ font-family:  sans-serif;
 
 /* line 41, ../sass/components/_progress.scss */
 .Progress-line {
-  height: 1px;
+  height: 3px;
   width: 100%;
   display: inline-block;
-  background: #333333;
+  background: #45ADA8;
   vertical-align: top;
 }
 
 /* line 48, ../sass/components/_progress.scss */
 .Progress-step {
-  height: 1px;
+  height: 3px;
   width: 4.76190476190476%;
   display: inline-block;
   vertical-align: top;
-  background: #c8be00;
+  background: #0B486B;
 }
 
 /* line 1, ../sass/components/_impress.scss */
@@ -1828,7 +1813,7 @@ font-family:  sans-serif;
 /* line 7, ../sass/components/_slides.scss */
 .nextIcon, .nextIcon--right {
   color: #c8be00;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;
@@ -1857,7 +1842,7 @@ font-family:  sans-serif;
 /* line 23, ../sass/components/_slides.scss */
 .impress-not-supported .downIcon {
   color: #c8be00;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;
@@ -1981,7 +1966,7 @@ font-family:  sans-serif;
 
 /* line 136, ../sass/components/_slides.scss */
 .exampleInfoBox span {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 50px;
   font-size: 3.125rem;
   line-height: 61px;
@@ -2014,9 +1999,7 @@ font-family:  sans-serif;
 
 /* line 153, ../sass/components/_slides.scss */
 #detail-signage span:after {
-  content: '$';
-  color: #c8be00;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 650px;
   font-size: 40.625rem;
   line-height: 661px;
@@ -2032,22 +2015,19 @@ font-family:  sans-serif;
 /* line 162, ../sass/components/_slides.scss */
 #detail-display span {
   font-family:  sans-serif;
-  font-size: 290px;
-  font-size: 18.125rem;
-  line-height: 301px;
+  font-size: 250px;
+  font-size: 15.125rem;
+  line-height: 201px;
   line-height: 1.03793em;
   font-weight: normal;
   font-style: normal;
-  color: #6e6e6e;
-  position: absolute;
+  position: top;
   margin: auto;
   top: 180px;
 }
 
 /* line 169, ../sass/components/_slides.scss */
 #detail-display span:before {
-  content: '6:20';
-  color: #ffffff;
   font-family:  sans-serif;
   font-size: 610px;
   font-size: 38.125rem;
@@ -2061,7 +2041,7 @@ font-family:  sans-serif;
 
 /* line 176, ../sass/components/_slides.scss */
 #detail-display .nextIcon, #detail-display .nextIcon--right {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 180px;
   font-size: 11.25rem;
   line-height: 191px;
@@ -2072,28 +2052,11 @@ font-family:  sans-serif;
   left: -10px;
 }
 
-/* line 180, ../sass/components/_slides.scss */
-#detail-display .nextIcon:after, #detail-display .nextIcon--right:after {
-  content: 'Platforma 6';
-  color: #ffffff;
-  font-family:  sans-serif;
-  font-size: 90px;
-  font-size: 5.625rem;
-  line-height: 101px;
-  line-height: 1.12222em;
-  font-weight: normal;
-  font-style: normal;
-  position: absolute;
-  top: 51px;
-  margin: auto;
-  width: 500px;
-}
 
 /* line 190, ../sass/components/_slides.scss */
 #function-form:before {
-  content: 'i';
   color: #2d2d2d;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 1130px;
   font-size: 70.625rem;
   line-height: 1141px;
@@ -2107,7 +2070,7 @@ font-family:  sans-serif;
 
 /* line 199, ../sass/components/_slides.scss */
 #tate-britain .nextIcon, #tate-britain .nextIcon--right {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 83px;
   font-size: 5.1875rem;
   line-height: 94px;
@@ -2121,7 +2084,7 @@ font-family:  sans-serif;
 
 /* line 204, ../sass/components/_slides.scss */
 #typeface-details .nextIcon, #typeface-details .nextIcon--right {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 75px;
   font-size: 4.6875rem;
   line-height: 86px;
@@ -2135,7 +2098,6 @@ font-family:  sans-serif;
 
 /* line 209, ../sass/components/_slides.scss */
 #design:before {
-  content: '5';
   color: #2d2d2d;
   font-family:  sans-serif;
   font-size: 935px;
@@ -2184,7 +2146,6 @@ font-family:  sans-serif;
 /* line 239, ../sass/components/_slides.scss */
 #function:before,
 #form:before {
-  content: '';
   border: 15px solid #333333;
   width: 1875px;
   height: 600px;
@@ -2198,7 +2159,7 @@ font-family:  sans-serif;
 /* line 250, ../sass/components/_slides.scss */
 .magnifier {
   color: #c8be00;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;
@@ -2249,7 +2210,7 @@ font-family:  sans-serif;
 }
 /* line 277, ../sass/components/_slides.scss */
 .bigWhiteTitle {
-  color: #ffffff;
+  color: #0B486B;
   font-family:  sans-serif;
   font-size: 150px;
   font-size: 9.375rem;
@@ -2315,7 +2276,6 @@ font-family:  sans-serif;
 
 /* line 323, ../sass/components/_slides.scss */
 .lineUp:before {
-  content: '';
   width: 9px;
   height: 9px;
   -moz-border-radius: 75%;
@@ -2331,7 +2291,6 @@ font-family:  sans-serif;
 
 /* line 334, ../sass/components/_slides.scss */
 .lineUp:after {
-  content: '';
   width: 9px;
   height: 9px;
   -moz-border-radius: 75%;
@@ -2392,9 +2351,8 @@ font-family:  sans-serif;
 /* Bg Steps */
 /* line 378, ../sass/components/_slides.scss */
 .arrowSlide:after {
-  content: 'à';
   color: #6e6e6e;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 900px;
   font-size: 56.25rem;
   line-height: 911px;
@@ -2888,7 +2846,7 @@ font-family:  sans-serif;
 }
 /* line 58, ../sass/mixins/_media_queries.scss */
 .ie8 .closeButton {
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 35px;
   font-size: 2.1875rem;
   line-height: 46px;
@@ -2901,7 +2859,7 @@ font-family:  sans-serif;
 @media (min-width: 750px) {
   /* line 118, ../sass/components/_overlay.scss */
   .closeButton {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 35px;
     font-size: 2.1875rem;
     line-height: 46px;
@@ -2915,7 +2873,7 @@ font-family:  sans-serif;
 @media (max-width: 749px) {
   /* line 118, ../sass/components/_overlay.scss */
   .closeButton {
-    font-family: 'FS Millbank Icons', sans-serif;
+    font-family:  sans-serif;
     font-size: 25px;
     font-size: 1.5625rem;
     line-height: 36px;
@@ -3550,9 +3508,8 @@ option {
 
 /* line 79, ../sass/components/_forms.scss */
 .select:before {
-  content: 'Å';
   color: #333333;
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 25px;
@@ -3655,8 +3612,7 @@ input.error {
 
 /* line 144, ../sass/components/_forms.scss */
 .submitFeedback .error:before {
-  content: 'F';
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;
@@ -3677,8 +3633,7 @@ input.error {
 
 /* line 156, ../sass/components/_forms.scss */
 .submitFeedback .success:after {
-  content: '{';
-  font-family: 'FS Millbank Icons', sans-serif;
+  font-family:  sans-serif;
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 71px;

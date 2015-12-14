@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "circliful": "~0.1.5"
+    "circliful": "~0.1.5",
+    "impress.js": "~0.5.3"
   }
 }
