@@ -359,3 +359,8 @@ $('#slider').on('change input', function(event) {
     });
   }
 });
+
+document.addEventListener("mousewheel", function( event ) {     
+  next =  event.wheelDelta ;
+  next = next >= 2 ? $('#js-prev').click(): $('#js-next').click();
+}, false); 

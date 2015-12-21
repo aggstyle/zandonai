@@ -1,9 +1,30 @@
 {
+  "back":"Anterior",
+  "next":"Proximo",
+  "of":"de",
+  "hom":"Inicial",
   "about":"Sobre",
   "hello": "Ola!",
   "name":"Ricardo Zandonai",
   "cit": "All in all it's just another brick in the wall",
   "cit_aut":"Roger Waters",
-   "hello_about":"Me chamo Ricardo Zandonai e desenvolvo trabalhos como freelancer, especializado em Ambientes e Back-end Web Developer Ninja, se voce continuar com as setas abaixo irei mostrar um pouco do meu trabalho e meu dia a dia.",
-   "skills":"Conhecimentos"
+  "hello_about":"Me chamo Ricardo Zandonai e desenvolvo trabalhos como freelancer, especializado em Ambientes e Back-end Web Developer Ninja, se voce continuar com as setas abaixo irei mostrar um pouco do meu trabalho e meu dia a dia.",
+  "skills":"Conhecimentos",
+  "works":"Alguns Trabalhos",
+  "aggw":"Startup que busca trazer de uma forma simples, paineis de controles para aplicações, sites pessoais e sistemas integrados.",
+  "traj":"Trajetoria Profissional",
+  "compe":"Competências e especialidades",
+  "compe1":"Competencias",
+  "comp":"Gestão de Programas , Gerenciamento de Projetos, Melhoria de Processos de Gestão da Mudança , Integração, Análise de Requisitos , Sistemas Engenharia, Gestão , Testes, Planejamento Estratégico, Análise de Negócios , Engenharia, Estratégia de Negócios",
+  "likeapro":"Profissional",
+  "howme":"How do you feel an occupation ?",
+  "howmepro":"Como me acho como profisional?",
+  "howmepro1":"Sempre muito animado e brincalhão acredito que apesar de ser algo que somos obrigados á fazer, devemos interagir e animar nosso ambinete de trabalho",
+  "howmepro2": "Como profisional me acho uma pessoa focada em resultados, mesmo tendo que virar a noite para conseguir os mesmos, acho que cobro demais as pessoas para que seja feito da minha forma, mais quem consegue me convencer sabe que sou maleavel á disculsões",
+  "aboutme":"Um pouco sobre min",
+  "photos":"Fotos",
+  "mail":"e-mail",
+  "aboutme1":"Desde 05/09/1985 procurando a forma de me encaixar no meu tempo, acho que todos temos um lugar e um motivo e pra chegar la temos alguns perguntas.",
+  "aboutme2":"Estudante,filho pai e professor, acho que estamos em um aprendizado continuo e devemos fazer um ciclo de ajudar para sermos ajudados, ensinar para poder aprender e no fundo todos sabemos o que melhorar."
+   
 }

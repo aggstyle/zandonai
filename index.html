@@ -34,13 +34,11 @@
         <div class="barBox right">
           <a class="menuButton js-menu"><span>Menu</span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="23" viewBox="0 0 22 23" enable-background="new 0 0 22 23" xml:space="preserve"><rect x="0" y="20" fill="#C6BA00" width="22" height="3"></rect><rect x="0" y="10" fill="#C6BA00" width="22" height="3"></rect><rect x="0" fill="#C6BA00" width="22" height="3"></rect></svg></a>
         </div>
-
-        <div class="Share-box right">
-          <span class="Share-text">In network</span>
-          <a class="Share-link" target="_blank" href="https://www.facebook.com/ricardo.zandonai" data-social="fb"><img src="./js/facebook-icon.svg" alt="Facebook logo" title="Share on Facebook"></a>
-          <a class="Share-link" target="_blank" href="https://www.facebook.com/ricardo.zandonai" data-social="tw"><img src="./js/linkedin.svg" alt="Twitter logo" title="Share on Twitter"></a>
-        </div>
         <div class="right">
+          <a class="Share-link" target="_blank" href="https://www.facebook.com/ricardo.zandonai" data-social="fb"><img src="./js/facebook-icon.svg" alt="Facebook logo" title="on Facebook"></a>
+          <a class="Share-link" target="_blank" href="https://br.linkedin.com/in/ricardozandonai" data-social="lk"><img src="./js/linkedin.svg" alt="Linkedin logo" title="on Linkedin"></a>
+        </div>
+        <div class="Share-box right">
           <a ng-click="changeLang('br')"> <img src="img/br.png"></img>
           </a>
           <a ng-click="changeLang('en')"> <img src="img/us.png"></img>
@@ -52,14 +50,14 @@
     <div id="Menu" class="js-menu" style="display: none;">
       <div class="Menu-box">
         <ul class="Menu-list">
-          <li class="Menu-item"><a class="js-goto Menu-link active" href="#home">Inicial</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#skills">skills</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#works">works</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#competency">Competency</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#positive-negative">Positive &amp; Negative</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#aboutme">From the inside out</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="#photos">photos</a></li>
-          <li class="Menu-item"><a class="js-goto Menu-link" href="mailto:zandonai.r@gmail.com.com">mail</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link active" href="#home">{{'hom' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#skills">{{'skills' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#works">{{'works' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#competency">{{'compe1' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#positive-negative">{{'likeapro' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#aboutme">{{'aboutme' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="#photos">{{'photos' | translate}}</a></li>
+          <li class="Menu-item"><a class="js-goto Menu-link" href="mailto:zandonai.r@gmail.com.com">{{'mail' | translate}}</a></li>
         </ul>
       </div>
     </div>
@@ -132,7 +130,7 @@
           </div>
 
           <div id="works" class="step past" data-x="3310" data-y="720" data-rotate="90" data-z="1" data-scale="3" style="position: absolute; transform: translate(-50%, -50%) translate3d(3311px, 720px, 1px) rotateX(1deg) rotateY(0deg) rotateZ(90deg) scale(2); transform-style: preserve-3d;">
-            <span class="smallestText ">Alguns Trabalhos</span>
+            <p class="smallestText " translate="works"></p>
             <br>
             <a href="http://aggstyle.github.io/soraiamilani/"> <img src="img/soraia.png" alt="Website da compositora Soraia Milani" height="200"> </a>
             <a href="#Startups" class="js-next nextIcon"><span>></span></a>
@@ -140,23 +138,21 @@
 
           <div id="Startups" class="step future" data-x="1150" data-y="780" data-scale="0.4" data-z="-500" style="position: absolute; transform: translate(-50%, -50%) translate3d(1150px, 780px, -500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(0.4); transform-style: preserve-3d;">
             <a href="http://aggstyle.com"><span class="microText ">AgGstyle</span></a>
-            <span class="smallText block microPaddingTop smallerIndentFix">Startup que busca trazer de uma forma simples paineis de controles para aplicações, sites pessoais e sistemas integrados.</span>
+            <p class="smallText block microPaddingTop smallerIndentFix" translate="aggw"></p>
             <a href="#professional" class="js-next nextIcon">
               < </a>
           </div>
 
           <div id="professional" class="step future" data-x="500" data-y="800" data-rotate="-90" data-scale="0.15" data-z="-500" style="position: absolute; transform: translate(-50%, -50%) translate3d(500px, 800px, -500px) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) scale(0.15); transform-style: preserve-3d;">
-            <span class="mediumText">Trajetoria Profissional</span>
+            <p class="mediumText" translate="traj"></p>
             <a href="#competency" class="js-next nextIcon">></a>
           </div>
 
           <div id="competency" class="step past" data-x="555" data-y="1400" data-scale="0.3" data-z="-400" style="position: absolute; transform: translate(-50%, -50%) translate3d(555px, 1400px, -400px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(0.3); transform-style: preserve-3d;">
             <div class="slide smallerPaddingTop extraPaddingRight">
-              <h2 class="paragraph block bold">Competências e especialidades</h2>
-              <p class="paragraph smallerPaddingTop">
-                Program Management, Project Management, Process Improvement Change Management, Integration, Requirements Analysis, Systems
-                Engineering, Management, Testing, Strategic Planning, Business Analysis, Engineering, Business Strategy,
-                Planejamento estratégico, Estratégia empresarial, Gestão, Análise de requisitos, Gestão de projetos</p>
+              <h2 class="paragraph block bold"><p translate="compe"></p></h2>
+              <p class="paragraph smallerPaddingTop" translate="comp">
+               </p>
               <a href="#Story" class="eyeButton js-overlay-open bottomLeft"><span>Curriculo</span></a>
             </div>
             <a href="#positive-negative" class="js-next nextIcon--right">></a>
@@ -164,20 +160,16 @@
           <div id="positive-negative" class="step future" data-x="750" data-y="1144" data-z="-600" data-scale="0.3" style="position: absolute; transform: translate(-50%, -50%) translate3d(750px, 1144px, -600px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(0.3); transform-style: preserve-3d;">
             <div class="lineUp"></div>
             <div class="slide extraPaddingRight">
-              <h3 class="paragraph block bold smallerPaddingTop">Como me acho como profisional?</h3>
-              <p class="paragraph smallerPaddingTop">Sempre muito animado e brincalhão acredito que apesar de ser algo que somos obrigados á fazer, devemos interagir
-                e animar nosso ambinete de trabalho</p>
-              <p class="paragraph smallerPaddingTop">Como profisional me acho uma pessoa focada em resultados, mesmo tendo que virar a noite para conseguir os mesmos,
-                acho que cobro demais as pessoas para que seja feito da minha forma, mais quem consegue me convencer sabe
-                que sou maleavel á disculsões
-              </p>
+              <h3 class="paragraph block bold smallerPaddingTop"><p translate="howmepro"></p></h3>
+              <p class="paragraph smallerPaddingTop" translate="howmepro1"></p>
+              <p class="paragraph smallerPaddingTop"translate="howmepro2"></p>
             </div>
             <a href="#user-interface" class="js-next nextIcon">></a>
           </div>
 
           <div id="user-interface" class="step future" data-x="1250" data-y="1144" data-z="-600" data-scale="0.3" style="position: absolute; transform: translate(-50%, -50%) translate3d(1250px, 1144px, -600px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(0.3); transform-style: preserve-3d;">
             <div class="slide">
-              <span class="biggerText block mediumIndentFix">Sobre o pessoal</span>
+              <p class="biggerText block mediumIndentFix" translate="aboutme"></p>
               <span class="smallestText bold"></span>
 
               <span class="microText block block microPaddingTop smallerIndentFix" style="text-align: right;"><br> <br><br> <br>
@@ -192,11 +184,10 @@
 
           <div id="aboutme" class="step future" data-x="1935" data-y="1375" data-rotate="180" data-z="-200" data-scale="0.4" style="position: absolute; transform: translate(-50%, -50%) translate3d(1935px, 1375px, -200px) rotateX(0deg) rotateY(0deg) rotateZ(180deg) scale(0.4); transform-style: preserve-3d;">
             <div class="slide extraPaddingRight">
-              <h3 class="paragraph block bold smallerPaddingTop">Um pouco sobre</h3>
-              <p class="paragraph smallerPaddingTop">desde 05/09/1985 procurando a forma de me encaixar no meu tempo, acho que todos temos um lugar e um motivo
-                e pra chegar la temos alguns perguntas,</p>
-              <p class="paragraph smallerPaddingTop">Estudante, professor acho que estamos em um aprendizado continuo e devemos fazer um ciclo de ajudar para sermos
-                ajudados, ensinar para poder aprender e no fundo todos sabemos o que melhorar.</p>
+              <h3 class="paragraph block bold smallerPaddingTop">
+              <p translate="aboutme1"></p>
+                <br>
+              <p translate="aboutme2"></p></h3>
             </div>
             <a href="#photos" class="js-next nextIcon">></a>
           </div>
@@ -214,9 +205,9 @@
 
     <div id="Footer">
       <a href="#home" class="js-goto exitButton hidePortable" title="Start again"><i class="fa fa-home"></i>
-Home</a>
+{{'hom' | translate}}</a>
       <div class="Progress">
-        <span class="Progress-text"><span id="Progress-number">1</span> of 11</span>
+        <span class="Progress-text"><span id="Progress-number">1</span> {{'of' | translate}} 11</span>
         <div class="Progress-bar">
           <div class="Progress-line">
             <div class="Progress-step" style="width: 4.34783%;"></div>
@@ -225,10 +216,10 @@ Home</a>
       </div>
       <div class="right">
         <div class="barBox">
-          <a id="js-prev" class="prevButton off"><span>Anterior</span></a>
+          <a id="js-prev" class="prevButton off"><span>{{'back' | translate}}</span></a>
         </div>
         <div class="barBox">
-          <a id="js-next" class="nextButton"><span>Proximo</span></a>
+          <a id="js-next" class="nextButton"><span>{{'next' | translate}}</span></a>
         </div>
       </div>
     </div>
@@ -247,10 +238,6 @@ Home</a>
           <P class="p5 ft6">July 2014 - Dezember 2015
             <SPAN class="ft5">(1 year 6 months)</SPAN>
           </P>
-          <P class="p6 ft4">Founder/CEO at Satty</P>
-          <P class="p7 ft6">May 2014 - January 2015
-            <SPAN class="ft5">(9 months)</SPAN>
-          </P>
           <P class="p6 ft4">Analista de implantação na Linx S.A.</P>
           <P class="p5 ft6">September 2012 - August 2014
             <SPAN class="ft5">(2 years)</SPAN>
@@ -262,14 +249,6 @@ Home</a>
           <P class="p8 ft4">Programmer at Esquematika informatica</P>
           <P class="p7 ft6">January 2011 - February 2012
             <SPAN class="ft5">(1 year 2 months)</SPAN>
-          </P>
-          <P class="p6 ft4">Analista Ti na Fakini Malhas</P>
-          <P class="p5 ft6">February 2010 - January 2011
-            <SPAN class="ft5">(1 year)</SPAN>
-          </P>
-          <P class="p6 ft4">Programmer laser cut at Graphik facas e corte vinco</P>
-          <P class="p7 ft6">May 2008 - February 2010
-            <SPAN class="ft5">(1 year 10 months)</SPAN>
           </P>
         </DIV>
         <DIV id="id_1">
@@ -296,9 +275,7 @@ Home</a>
               </TD>
             </TR>
           </TABLE>
-          <P class="p15 ft3">Organizações</P>
-          <P class="p5 ft4">https://github.com/aggstyle</P>
-          <P class="p16 ft9">Idealizador do projeto, programador , analista January 2015 to Present</P>
+
         </DIV>
       </DIV>
 
