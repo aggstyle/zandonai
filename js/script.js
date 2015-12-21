@@ -3,7 +3,7 @@ function progress() {
   var position = window.location.hash.replace('/','') ;
   var activeStep = $(position).index() + 1;
   $('#Progress-number').text(activeStep);
-  var percentWidth =  8.3333333333333 * activeStep;
+  var percentWidth =  9.1 * activeStep;
   $('.Progress-step').animate({
     width : percentWidth + '%'
   })
@@ -12,7 +12,7 @@ function progress() {
   } else {
     $('#js-prev').removeClass('off');
   }
-  if (activeStep == 12) {
+  if (activeStep == 11) {
     $('#js-next').addClass('off');
   } else {
     $('#js-next').removeClass('off');
@@ -54,7 +54,7 @@ $(function() {
   }
   $('#js-next').on('click', function() {
     if ($(this).hasClass('off')) {
-      impress().goto(22);
+      impress().goto(11);
     } else {
       impress().next();
     }
@@ -95,7 +95,7 @@ $(function() {
     $("#impress").swipe( {
       swipeLeft:function(event, direction, distance, duration, fingerCount) {
         if ($('#js-next').hasClass('off')) {
-          impress().goto(12);
+          impress().goto(11);
         } else {
           impress().next();
         }

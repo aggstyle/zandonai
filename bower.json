@@ -21,6 +21,10 @@
   ],
   "dependencies": {
     "circliful": "~0.1.5",
-    "impress.js": "~0.5.3"
+    "impress.js": "~0.5.3",
+    "angular": "angularjs#~1.4.8",
+    "font-awesome": "~4.5.0",
+    "angular-translate-storage-local": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1"
   }
 }
